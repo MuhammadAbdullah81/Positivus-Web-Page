@@ -12,3 +12,16 @@
 .hero-column {
     width: --columns(0rem, 2);
 }
+
+/* Brand Logos */
+
+.brand-logo {
+    filter: brightness(0);
+    opacity: 80%;
+    transition: all 300ms ease;
+
+    &:hover {
+        opacity: 100%;
+        filter: brightness(100%);
+    }
+}
