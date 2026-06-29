@@ -26,6 +26,38 @@
     margin: 2rem;
 }
 
+.m-2_5 {
+    margin: 2.5rem;
+}
+
+.m-3 {
+    margin: 3rem;
+}
+
+.m-3_5 {
+    margin: 3.5rem;
+}
+
+.m-4 {
+    margin: 4rem;
+}
+
+.m-4_5 {
+    margin: 4.5rem;
+}
+
+.m-5 {
+    margin: 5rem;
+}
+
+.m-5_5 {
+    margin: 5.5rem;
+}
+
+.m-6 {
+    margin: 6rem;
+}
+
 /* Margin Y */
 
 .my-0_5 {
@@ -52,6 +84,30 @@
     margin-block: 3rem;
 }
 
+.my-3_5 {
+    margin-block: 3.5rem;
+}
+
+.my-4 {
+    margin-block: 4rem;
+}
+
+.my-4_5 {
+    margin-block: 4.5rem;
+}
+
+.my-5 {
+    margin-block: 5rem;
+}
+
+.my-5_5 {
+    margin-block: 5.5rem;
+}
+
+.my-6 {
+    margin-block: 6rem;
+}
+
 /* Margin X */
 
 .mx-0_5 {
@@ -68,6 +124,38 @@
 
 .mx-2 {
     margin-inline: 2rem;
+}
+
+.mx-2_5 {
+    margin-inline: 2.5rem;
+}
+
+.mx-3 {
+    margin-inline: 3rem;
+}
+
+.mx-3_5 {
+    margin-inline: 3.5rem;
+}
+
+.mx-4 {
+    margin-inline: 4rem;
+}
+
+.mx-4_5 {
+    margin-inline: 4.5rem;
+}
+
+.mx-5 {
+    margin-inline: 5rem;
+}
+
+.mx-5_5 {
+    margin-inline: 5.5rem;
+}
+
+.mx-6 {
+    margin-inline: 6rem;
 }
 
 /* Padding */
@@ -88,6 +176,38 @@
     padding: 2rem;
 }
 
+.p-2_5 {
+    padding: 2.5rem;
+}
+
+.p-3 {
+    padding: 3rem;
+}
+
+.p-3_5 {
+    padding: 3.5rem;
+}
+
+.p-4 {
+    padding: 4rem;
+}
+
+.p-4_5 {
+    padding: 4.5rem;
+}
+
+.p-5 {
+    padding: 5rem;
+}
+
+.p-5_5 {
+    padding: 5.5rem;
+}
+
+.p-6 {
+    padding: 6rem;
+}
+
 /* Padding Y */
 
 .py-0_5 {
@@ -106,6 +226,34 @@
     padding-block: 2rem;
 }
 
+.py-3 {
+    padding-block: 3rem;
+}
+
+.py-3_5 {
+    padding-block: 3.5rem;
+}
+
+.py-4 {
+    padding-block: 4rem;
+}
+
+.py-4_5 {
+    padding-block: 4.5rem;
+}
+
+.py-5 {
+    padding-block: 5rem;
+}
+
+.py-5_5 {
+    padding-block: 5.5rem;
+}
+
+.py-6 {
+    padding-block: 6rem;
+}
+
 /* Padding X */
 
 .px-0_5 {
@@ -122,6 +270,38 @@
 
 .px-2 {
     padding-inline: 2rem;
+}
+
+.px-2_5 {
+    padding-inline: 2.5rem;
+}
+
+.px-3 {
+    padding-inline: 3rem;
+}
+
+.px-3_5 {
+    padding-inline: 3.5rem;
+}
+
+.px-4 {
+    padding-inline: 4rem;
+}
+
+.px-4_5 {
+    padding-inline: 4.5rem;
+}
+
+.px-5 {
+    padding-inline: 5rem;
+}
+
+.px-5_5 {
+    padding-inline: 5.5rem;
+}
+
+.px-6 {
+    padding-inline: 6rem;
 }
 
 /* Gap */
@@ -144,4 +324,11 @@
 
 .gap-2_5 {
     gap: 2.5rem;
+}
+
+/* Heading px */
+
+.h-px-sm {
+    padding-inline: 0.625rem;
+    border-radius: 0.3125rem;
 }

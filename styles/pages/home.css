@@ -5,6 +5,7 @@
 @import url("../layout/columns.css");
 @import url("../components/header.css");
 @import url("../components/buttons.css");
+@import url("../components/services-card.css");
 @import url("../utilities/utilities.css");
 
 /* Hero Section */
@@ -24,4 +25,10 @@
         opacity: 100%;
         filter: brightness(100%);
     }
+}
+
+/* Services Card Container */
+
+#services-card-container>* {
+    width: --columns(2rem, 2);
 }

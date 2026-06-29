@@ -1,0 +1,6 @@
+.services-card {
+    height: 19.375rem;
+    border: 0.0625rem solid var(--color-black);
+    border-radius: 2.8125rem;
+    border-bottom: 0.3125rem solid var(--color-black);
+}
