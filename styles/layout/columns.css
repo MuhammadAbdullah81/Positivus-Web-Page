@@ -1,3 +1,3 @@
 @function --columns(--gap, --no-of-col) {
-    result: calc((100% - --gap) / --no-of-col)
+    result: calc((100% - var(--gap)) / var(--no-of-col));
 }

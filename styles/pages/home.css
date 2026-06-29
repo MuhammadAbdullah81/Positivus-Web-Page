@@ -6,3 +6,9 @@
 @import url("../components/header.css");
 @import url("../components/buttons.css");
 @import url("../utilities/utilities.css");
+
+/* Hero Section */
+
+.hero-column {
+    width: --columns(0rem, 2);
+}
