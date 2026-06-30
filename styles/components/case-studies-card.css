@@ -1,0 +1,14 @@
+.case-studies-card:first-child {
+    border-top-left-radius: 2.8125rem;
+    border-bottom-left-radius: 2.8125rem;
+}
+
+.case-studies-card:last-child {
+    border-top-right-radius: 2.8125rem;
+    border-bottom-right-radius: 2.8125rem;
+}
+
+.case-studies-card:nth-child(2) .case-studies-card-content {
+    border-left: 0.125rem solid #FFFFFF;
+    border-right: 0.125rem solid #FFFFFF;
+}

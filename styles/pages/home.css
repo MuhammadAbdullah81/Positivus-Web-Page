@@ -6,6 +6,7 @@
 @import url("../components/header.css");
 @import url("../components/buttons.css");
 @import url("../components/services-card.css");
+@import url("../components/case-studies-card.css");
 @import url("../utilities/utilities.css");
 
 /* Hero Section */
@@ -35,7 +36,8 @@
 
 /* Services Card Container */
 
-#services-card-container {
+#services-card-container,
+#case-studies-card-container {
     margin-top: 4.5rem;
 }
 
@@ -48,5 +50,10 @@
 #perposal-section .content-wrapper  {
     height: 21.6875rem;
     border-radius: 2.8125rem;
+}
 
+/* Case Studies Section */
+
+#case-studies-card-container .case-studies-card {
+    width: --columns(0rem, 3);
 }

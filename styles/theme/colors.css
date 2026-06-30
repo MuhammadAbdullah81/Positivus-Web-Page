@@ -28,3 +28,7 @@
 .text-black {
     color: var(--color-black);
 }
+
+.text-green {
+    color: var(--color-green);
+}
