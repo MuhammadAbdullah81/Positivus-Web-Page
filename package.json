@@ -1,0 +1,23 @@
+{
+  "name": "positivus",
+  "version": "1.0.0",
+  "description": "A simple and interactive webpage ",
+  "homepage": "https://github.com/MuhammadAbdullah81/Positivus-Web-Page#readme",
+  "bugs": {
+    "url": "https://github.com/MuhammadAbdullah81/Positivus-Web-Page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MuhammadAbdullah81/Positivus-Web-Page.git"
+  },
+  "license": "ISC",
+  "author": "\"Muhammad Abdullah\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "swiper": "^14.0.1"
+  }
+}
