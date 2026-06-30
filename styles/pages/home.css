@@ -8,6 +8,7 @@
 @import url("../components/services-card.css");
 @import url("../components/case-studies-card.css");
 @import url("../components/faq-card.css");
+@import url("../components/team-card.css");
 @import url("../utilities/utilities.css");
 
 /* Hero Section */
@@ -38,6 +39,7 @@
 /* Services Card Container */
 
 #faq-card-container,
+#team-card-container,
 #services-card-container,
 #case-studies-card-container {
     margin-top: 4.5rem;
@@ -49,7 +51,7 @@
 
 /* Perposals Section */
 
-#perposal-section .content-wrapper  {
+#perposal-section .content-wrapper {
     height: 21.6875rem;
     border-radius: 2.8125rem;
 }
@@ -58,4 +60,14 @@
 
 #case-studies-card-container .case-studies-card {
     width: --columns(0rem, 3);
+}
+
+/* Team Section */
+
+#team-card-container>* {
+    width: --columns(4rem, 3);
+}
+
+#team-btn {
+    margin-top: 2rem;
 }
