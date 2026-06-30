@@ -38,6 +38,7 @@
 
 /* Services Card Container */
 
+#contact-form,
 #faq-card-container,
 #team-card-container,
 #testemonials-container,
@@ -101,4 +102,30 @@
 
 #author {
     align-self: start;
+}
+
+/* Contact US */
+
+#contact-form {
+    background-image: url("../../images/Illustrations/form.svg");
+    background-repeat: no-repeat;
+    background-size: 20.25rem 40.5rem;
+    background-position-y: center;
+    background-position-x: 110%;
+    border-radius: 2.8125rem;
+}
+
+.input-field {
+    width: 100%;
+    border: 0.0625rem solid var(--color-black);
+    border-radius: 0.875rem;
+}
+
+#contact-form textarea.input-field {
+    height: 11.875rem;
+}
+
+.input-field,
+#contact-form button[type="submit"] {
+    width: 25rem;
 }
