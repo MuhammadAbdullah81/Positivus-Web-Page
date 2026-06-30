@@ -7,6 +7,7 @@
 @import url("../components/buttons.css");
 @import url("../components/services-card.css");
 @import url("../components/case-studies-card.css");
+@import url("../components/faq-card.css");
 @import url("../utilities/utilities.css");
 
 /* Hero Section */
@@ -36,6 +37,7 @@
 
 /* Services Card Container */
 
+#faq-card-container,
 #services-card-container,
 #case-studies-card-container {
     margin-top: 4.5rem;
