@@ -40,6 +40,7 @@
 
 #faq-card-container,
 #team-card-container,
+#testemonials-container,
 #services-card-container,
 #case-studies-card-container {
     margin-top: 4.5rem;
@@ -70,4 +71,34 @@
 
 #team-btn {
     margin-top: 2rem;
+}
+
+/* Testemonials Section */
+
+#testemonials-container {
+    height: 30.0625rem;
+    border-radius: 2.8125rem;
+    overflow: hidden;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+#testemonials-container .swipper-btn-next,
+#testemonials-container .swipper-btn-prev {
+    color: var(--color-green);
+}
+
+.swiper-slide .comment {
+    max-width: 37.875rem;
+    max-height: 16.625rem;
+    background-image: url("../../images/Testemonials/message.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#author {
+    align-self: start;
 }
