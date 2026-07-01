@@ -7,3 +7,30 @@ footer .content-wrapper {
     text-decoration: underline;
     text-decoration-color: var(--color-gray);
 }
+
+
+
+footer #news-letter-form {
+    height: 11.5rem;
+    width: 39.625rem;
+    border-radius: 0.875rem;
+}
+
+footer #news-letter-form button,
+footer #news-letter-form input[type="email"] {
+    width: 15.5625rem;
+    padding-block: 1.25rem;
+}
+
+footer #news-letter-form input[type="email"] {
+    border-radius: 0.875rem;
+    border: 1px solid #FFFFFF;
+
+    &::placeholder {
+        color: #FFFFFF;
+    }
+}
+
+#rights-policy {
+    margin-top: 5rem;
+}

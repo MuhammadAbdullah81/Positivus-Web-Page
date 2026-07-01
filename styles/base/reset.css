@@ -23,7 +23,9 @@ svg {
     display: block;
 }
 
-button {
+input,
+button,
+textarea {
     font-family: inherit;
     font-size: inherit;
 }

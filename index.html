@@ -854,7 +854,7 @@
                         <!-- Options -->
                         <ul class="flex gap-2_5">
                             <li class="flex items-center gap-0_5">
-                                <input type="radio" name="what-to-say" id="say-hi">
+                                <input type="radio" name="what-to-say" id="say-hi" checked>
                                 <label class="lead" for="say-hi">Say hi</label>
                             </li>
                             <li class="flex items-center gap-0_5">
@@ -881,8 +881,8 @@
                             <label class="lead" for="message" id="message">Message*</label>
                             <br>
                             <textarea class="input-field p-1 lead w-full" type="text" name="message" id="message"
-                                placeholder="Message" required>
-                            </textarea>
+                            rows="5" cols="50" placeholder="Message"
+                            required></textarea>
                         </div>
                         <button type="submit" class="btn-dark">
                             Send Message
@@ -942,6 +942,54 @@
                     </li>
                 </ul>
             </header>
+
+            <!-- Subscribe Section -->
+            <div class="my-5 flex justify-space-bw items-stretch">
+                <!-- Info -->
+                <ul class="flex flex-column items-start gap-1_5">
+                    <li>
+                        <h4 class="heading-fourth h-px-sm bg-green">
+                            Contact Us:
+                        </h4>
+                    </li>
+                    <li>
+                        <p class="text-white lead">
+                            Email: info@positivus.com
+                        </p>
+                    </li>
+                    <li>
+                        <p class="text-white lead">
+                            Phone: 555-567-8901
+                        </p>
+                    </li>
+                    <li>
+                        <p class="text-white lead">
+                            Address: 1234 Main St <br>
+                            Moonstone City, Stardust State 12345
+                        </p>
+                    </li>
+                </ul>
+                <!-- News Letter Form -->
+                <form id="news-letter-form" class="bg-light-black flex justify-center items-center">
+                    <ul class="flex items-center gap-1">
+                        <li>
+                            <input class="text-white px-1_5 lead bg-light-black" type="email" placeholder="Email">
+                        </li>
+                        <li>
+                            <button class="bg-green lead">
+                                Subscribe
+                            </button>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+
+            <hr>
+
+            <!-- Rights -->
+            <p id="rights-policy" class="text-white lead">
+                © 2023 Positivus. All Rights Reserved.
+            </p>
         </div>
     </footer>
 </body>
