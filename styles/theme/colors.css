@@ -25,6 +25,10 @@
     color: #FFFFFF;
 }
 
+.text-gray {
+    color: var(--color-gray);
+}
+
 .text-black {
     color: var(--color-black);
 }

@@ -1,0 +1,9 @@
+footer .content-wrapper {
+    border-top-left-radius: 2.8125rem;
+    border-top-right-radius: 2.8125rem;
+}
+
+.footer-link {
+    text-decoration: underline;
+    text-decoration-color: var(--color-gray);
+}
